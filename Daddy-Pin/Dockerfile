@@ -5,7 +5,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copy the Python script into the container
-COPY lvl1.py flag.txt pin.txt /app/
+COPY lvl1.py Solution/flag.txt Solution/pin.txt /app/
 
 # Install netcat for listening on the specified port
 RUN apt-get update && apt-get install -y socat && apt-get clean 

@@ -20,9 +20,9 @@ Afin de facilement observer les échanges, on peut filtrer les trames telnet :
 
 Puis suivre les flux en se rendant dans *Analyser* / *Suivre* / *TCP Steam* :
 
-![Image2](img/Solution2.png)
+![Image2](img/solution2.png)
 
-![Image3](img/Solution3.png)
+![Image3](img/solution3.png)
 
 On peut voir que le mot de passe est superSecret22.
 

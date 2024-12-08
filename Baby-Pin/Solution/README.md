@@ -23,6 +23,7 @@ Il faut tout d'abord connaître la taille. Pour cela on peut tester différentes
 ```
 [-] Length doesn't match
 ```
+On obtient alors une taille de 4.
 
 On peut ensuite résoudre le challenge à la main ou en réalisant un programme qui va tester pour le premier chiffre toutes les possibilités et quand il obtient la bonne réponse, tester sur le second chiffre ect…
 

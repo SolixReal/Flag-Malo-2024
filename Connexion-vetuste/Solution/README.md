@@ -16,7 +16,7 @@ C'est un protocole reconnu comme vulnérable, qui ne chiffre pas les échanges.
 
 Afin de facilement observer les échanges, on peut filtrer les trames telnet :
 
-![Image1](img/Solution1.png)
+![Image1](https://github.com/SolixReal/Flag-Malo-2024/blob/main/Connexion-vetuste/Solution/img/solution1.png)
 
 Puis suivre les flux en se rendant dans *Analyser* / *Suivre* / *TCP Steam* :
 

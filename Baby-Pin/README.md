@@ -1,3 +1,11 @@
+# Flag'Malo 2024
+
+## Baby PIN
+
+Crypto - Easy
+
+### Enoncé
+
 Retrouvez le code PIN pour déceler les secrets du serveur.
 
 Connexion avec nc localhost 4001

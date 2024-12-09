@@ -17,7 +17,7 @@ Le drive est rempli de fichier traitant de la théorie de la terre plate, sujet 
 On trouve régulièrement des références au président et notamment ses initials : M.P.
 Mais seul trois fichiers contiennent des informations utile :
 - Dans le fichier "Rapport_Réunion2024" du dossier "Divers" on trouve à la fin :
-  [center]![Contenu Rapport_Réunion2024](img/fich1.png)[/center]
+  ![Contenu Rapport_Réunion2024](img/fich1.png)
 
   Le texte *CrgvgQrgnvyf* est en ROT13 et donne : *PetitDetails*
 
@@ -29,7 +29,7 @@ Mais seul trois fichiers contiennent des informations utile :
 
   Il s'agit d'un texte chiffré en Vigenère avec la clé PetitDetails.
   Le site [dCode](https://www.dcode.fr/chiffre-vigenere), pour exemple, permet très facilement de déchiffrer le texte.
-  [center]![Déchiffrement par le site dCode](img/dcode.png)[/center]
+  ![Déchiffrement par le site dCode](img/dcode.png)
 
   On obtient alors :
   > Notre president reste discret, mais son nom est grave la ou personne ne regarde. Voici ce qui devoile tout :
@@ -39,7 +39,7 @@ Mais seul trois fichiers contiennent des informations utile :
 
 - Le message fait référence au fichier "Réunion_Slogan.pdf" du dossier "Archives" et les chiffres correspondent à des duos de ligne et lettre (exemple : 13-5 :  13èmes lignes, 5èmes lettres)
   On obtient les lettres suivantes :
-  [center]![Fichier des slogans](img/fich3.png)[/center]
+  ![Fichier des slogans](img/fich3.png)
 
 Le nom du président est Michel Perier.
 

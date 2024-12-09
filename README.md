@@ -6,3 +6,7 @@ Chaque dossier contient les éléments pour jouer le challenge et un dossier sol
 C'est avec plaisir que je prends vos avis pour pouvoir améliorer mes challenges dans le futur !
 
 Si vous voulez échanger sur discord : @solixreal_0945
+
+Je remercie l'IUT de Saint-Malo et l'équipe organisatrice du Flag'Malo de nous avoir intégré afin de proposé des challenges et aider à l'organisation.
+
+Merci aussi à mon camarade Slotekh pour ses idées et conseils !

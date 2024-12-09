@@ -4,6 +4,8 @@
 
 Osint - Medium
 
+Co-écrit avec Slotekh
+
 ### Résolution
 
 La première étape consiste à trouver le bon point de contact depuis le compte twitter fourni.

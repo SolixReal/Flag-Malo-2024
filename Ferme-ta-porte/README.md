@@ -1,12 +1,15 @@
-# Ferme-ta-porte
+# Flag'Malo 2024
+
+## Ferme ta porte
+
 Réseau - Easy
 
-## Enoncé
-Des données ont été partagées sur le réseau dont une qui va vous intéresser.
+Co-écrit avec rizlaaa
 
-## Ressources
-Fournir le fichier "Capture_Ferme_Ta_Porte.pcapng"
+### Enoncé
 
-## Solution
+Des données ont été partagées sur le réseau, dont une qui va vous intéresser.
 
-Voir le fichier "Solution_Ferme_Ta_Porte.pcapng"
+### Ressource
+
+- ![Capture_Ferme_Ta_Porte.pcapng](Capture_Ferme_Ta_Porte.pcapng)

@@ -15,8 +15,10 @@ On peut alors supposer que ce compte puisse être un bon point de contact.
 En le contactant, si on lui fait croire que l'on est intéressé pour devenir membre de l'association et que l'on a participé à une réunion d'initiation, il va nous poser 4 questions pour s'assurer de notre sérieux :
 	- Quel est le nom de l'association ?
 		On connait la réponse avec l'étape précédente : ARPIV
+
 	- Quel est l'élément central des réunions d'initiations ?
 		On connait également la réponse avec l'étape précédente : Les mégalithes
+
 	- Quel est la date et l'heure de la dernière réunion d'initiation ?
 		En explorant le compte twitter de Jean Stéphane, on peut voir que depuis son échange avec Georges Or Well, il attendait avec impatience le jeudi 5 décembre. On peut alors supposer qu'il s'agissait de sa réunion d'initiation.
 		![Tweet de Jean Stephane sur le jour de la réunion](img/jourreu.png)

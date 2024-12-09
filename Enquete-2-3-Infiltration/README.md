@@ -4,6 +4,8 @@
 
 Osint - Medium
 
+Co-écrit avec Slotekh
+
 ### Enoncé
 Maintenant que vous avez identifié le lieu de leur réunion d'initiation et que vous en savez plus sur l'organisation, tentez de devenir membre de l'association.
 

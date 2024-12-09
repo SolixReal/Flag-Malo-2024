@@ -25,7 +25,6 @@ def encrypt_image_aes_128(input_image_path, output_encrypted_path, key, iv):
 
     print(f"Image chiffrée avec succès et sauvegardée dans {output_encrypted_path}")
 
-# Exemple d'utilisation
 if __name__ == "__main__":
     # Fichier d'entrée et de sortie
     input_image = "piecejointe.png"  # Image d'entrée
@@ -37,4 +36,3 @@ if __name__ == "__main__":
 
     # Chiffrer l'image
     encrypt_image_aes_128(input_image, output_encrypted, key, iv)
-

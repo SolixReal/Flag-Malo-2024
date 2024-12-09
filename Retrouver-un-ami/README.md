@@ -1,7 +1,11 @@
-# Retrouver-un-ami
-OSINT - Easy
+# Flag'Malo 2024
 
-# Enoncé
+## Retrouver-un-ami
+
+OSINT - Medium
+
+### Enoncé
+
 L'été dernier, j'ai visité une superbe ville et j'ai fini chez une personne super sympathique à boire un café. Il avait un établissement un peu étrange de référencé. Je voudrais lui envoyer une lettre pour reprendre contact mais j'ai malheureusement oublié son adresse. Pouvez-vous m'aider à retrouver le nom de son établissement ?
 
 Pour vous aider, voici un récap de ma journée :
@@ -10,10 +14,10 @@ Pour vous aider, voici un récap de ma journée :
    - J'ai gribouillé un dessin en me baladant en ville.
    - Puis j'ai bu un bon café avec mon ami d'un jour.
 
-Format attendu du flag : FMCTF{lieux}
+Format attendu du flag : FMCTF{lieu}
 
-# Ressources
-Fournir "photo.png" et "gribouillage.pdf"
+### Ressources
 
-# Solution
-Lire le fichier "solution_retouverUnAmi.pdf"
+- ![](gribouillage.pdf)
+
+- ![photo.png](photo.png)

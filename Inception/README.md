@@ -1,8 +1,14 @@
-# Enoncé
+# Flag'Malo 2024
+
+## Inception
+
+Stegano - Hard
+
+### Enoncé
+
 Vous avez réussi à intercepter un mail et sa pièce jointe et vous savez qu'un message s'y cache, retrouvez le.
 
-# Ressources
-Fournir les documents "mail.pdf" et "piecejointe.png"
+### Ressources
 
-# Solution
-Voir le dossier Solution
+- ![mail.pdf](mail.pdf)
+- ![piecejointe.png](piecejointe.png)

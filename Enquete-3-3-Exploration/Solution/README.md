@@ -6,16 +6,18 @@ Osint - Medium
 
 ### Contenu
 
-La recherche du nom du président se déroule exclusivement dans le drive obtenu à l'étape précédente :\
-Lien : https://drive.proton.me/urls/R36KB56FB0#fugfnd1LzqL5\
+La recherche du nom du président se déroule exclusivement dans le drive obtenu à l'étape précédente :
+
+Lien : https://drive.proton.me/urls/R36KB56FB0#fugfnd1LzqL5 \
 Mot de passe : FMCTF{BigDriveOfInformation}
 
 Le drive est rempli de fichier traitant de la théorie de la terre plate, sujet principal de l'ARPIV, ainsi que des documents administratif de l'association.
 
 ### Résolution
 
-On trouve régulièrement des références au président et notamment ses initials : M.P. \
-Mais seul trois fichiers contiennent des informations utile :
+On trouve régulièrement des références au président et notamment ses initiales : M.P.
+
+Mais seuls trois fichiers contiennent des informations utiles :
 - Dans le fichier "Rapport_Réunion2024" du dossier "Divers" on trouve à la fin :
   ![Contenu Rapport_Réunion2024](img/fich1.png)
 
@@ -27,7 +29,7 @@ Mais seul trois fichiers contiennent des informations utile :
   13-5 / 14-8 / 17-34 / 21-1 / 21-14 / 22-1
   18-1 / 24-7 / 25-21 / 27-19 / 32-9 / 34-9
 
-  Il s'agit d'un texte chiffré en Vigenère avec la clé PetitDetails.\
+  Il s'agit d'un texte chiffré en Vigenère avec la clé PetitDetails. \
   Le site [dCode](https://www.dcode.fr/chiffre-vigenere), pour exemple, permet très facilement de déchiffrer le texte.
   ![Déchiffrement par le site dCode](img/dcode.png)
 
@@ -37,7 +39,8 @@ Mais seul trois fichiers contiennent des informations utile :
   13-5 / 14-8 / 17-34 / 21-1 / 21-14 / 22-1
   18-1 / 24-7 / 25-21 / 27-19 / 32-9 / 34-9
 
-- Le message fait référence au fichier "Réunion_Slogan.pdf" du dossier "Archives" et les chiffres correspondent à des duos de ligne et lettre (exemple : 13-5 :  13èmes lignes, 5èmes lettres)\
+- Le message fait référence au fichier "Réunion_Slogan.pdf" du dossier "Archives" et les chiffres correspondent à des duos de ligne et lettre (exemple : 13-5 :  13èmes lignes, 5èmes lettres).
+
   On obtient les lettres suivantes :
   ![Fichier des slogans](img/fich3.png)
 

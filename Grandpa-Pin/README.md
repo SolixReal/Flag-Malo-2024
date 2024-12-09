@@ -1,20 +1,23 @@
-## Build
-sudo docker build --tag "ctfmalo-lvl3" .
+# Flag'Malo 2024
 
-## Run 
-sudo docker run  -p 4003:4002 ctfmalo-lvl3
+## Grandpa PIN
 
-## Connect 
-nc localhost 4003
+Crypto - Medium
 
-## Enoncé
+Auteurs originaux : Damin MARION & Daniel DE ALMEIDA BRAGA
+
+### Enoncé
 Le maître des PIN !
 
-Connexion avec nc [adresse IP] 4003
+Connexion avec nc localhost 4003
 
 Astuce de grand-père : La force brute n'est pas toujours la solution, sagesse et réflexion vous amèneront plus rapidement vers la réussite.
 
-Auteurs : Damin MARION & Daniel DE ALMEIDA BRAGA
+### Build
+sudo docker build --tag "ctfmalo-lvl3" .
 
-## Write Up
-Dans le dossier "Solution"
+### Run
+sudo docker run  -p 4003:4002 ctfmalo-lvl3
+
+### Connect
+nc localhost 4003

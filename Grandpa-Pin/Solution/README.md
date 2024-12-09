@@ -1,11 +1,32 @@
-import socket
-import time
-import numpy as np 
+# Flag'Malo 2024
 
-# Server IP and port (replace with the actual server details)
-SERVER_HOST = 'localhost'  # Replace with the server's IP if running remotely
-SERVER_PORT = 4003        # Replace with the actual port the server is listening on
+## Grandpa PIN
 
+Crypto - Medium
+
+### Contenu
+
+En se connectant au challenge avec nc il est demandé de rentrer un code PIN.
+
+Le serveur répond uniquement pour dire si le code PIN est bon et ne donne aucune autre information.
+```
+Give me the right PIN code to get the flag!
+>>>
+```
+
+### Résolution
+
+Etant donné que nous n'avons pas d'information et que, comme le dit l'énoncé, il ne faut pas passer par du brute force.
+
+On va alors essayer d'utiliser une technique de side-channel, en observant les temps d'exécution.
+
+Il faut tout d'abord connaître la taille.
+
+Pour cela on peut tester différentes taille de chaîne de 0 et observer celle où le temps d'exécution est le plus important.
+
+Voici un programme correspondant :
+
+```
 def main():
     try:
         # Create a TCP/IP socket
@@ -14,37 +35,43 @@ def main():
             s.connect((SERVER_HOST, SERVER_PORT))
             print("Connected to the server.")
 
-            ## To get the size         
+            ## To get the size
+            #'''
             # Receive the initial prompt from the server
             data = s.recv(1024).decode()
             print (data)
             end_size = 20
             delta = np.zeros(end_size)
-            
+
             for i in range(end_size):
                 while ('>>>' not in data):
                     data = s.recv(1024).decode ()
-                
+
                 t0 = time.time ()
                 passwd = '0'*i
-                    
-                s.sendall((passwd + '\n').encode())    
+
+                s.sendall((passwd + '\n').encode())
                 data = s.recv(1024).decode ()
                 t1 = time.time ()
 
                 delta[i] = t1 - t0
                 print(data, delta[i], i)
 
-            size = np.argmax(delta)
+            tmp_res = np.argmax(delta)
             print(f"------------------")
-            print(f"Taille : {size}")
-            print(f"------------------")
+            print(f"Taille : {tmp_res}")
+```
 
-            ## To get the PIN
+On obtient alors une taille de 8.
+
+On va maintenant tester pour chaque chiffre les 10 possibilités en mesurant le temps puis on enregistrera le chiffre correspondant à la valeur la plus importante.
+
+```
+## To get the PIN
             print (data)
             passwd = '0'*size
-                        
-            # while (True): 
+
+            # while (True):
             for i in range(size):
                 times = np.zeros(10)  # Réinitialise les temps pour chaque position du mot de passe
                 if i == size - 1:
@@ -90,10 +117,17 @@ def main():
                 passwd = ''.join(passwd)
 
             print(f"Mot de passe final : {passwd}")
-                
+
 
     except Exception as e:
         print(f"An error occurred: {e}")
+```
 
-if __name__ == "__main__":
-    main()
+Le fichier ![solution.py](solution.py) propose un programme complet pour résoudre le challenge.
+
+Au final si on utilise le code 82795215 le serveur retourne : FMCTF{anOldPinCode}
+
+### Flag
+
+Le flag est FMCTF{anOldPinCode}
+

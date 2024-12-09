@@ -4,13 +4,13 @@
 
 Crypto - Easy
 
+Auteurs originaux : Damin MARION & Daniel DE ALMEIDA BRAGA
+
 ### Enoncé
 
 Retrouvez le code PIN pour déceler les secrets du serveur.
 
 Connexion avec nc localhost 4001
-
-Auteurs originaux : Damin MARION & Daniel DE ALMEIDA BRAGA
 
 ### Build
 sudo docker build --tag "ctfmalo-lvl1" .

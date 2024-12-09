@@ -4,13 +4,13 @@
 
 Crypto - Medium
 
+Auteurs originaux : Damin MARION & Daniel DE ALMEIDA BRAGA
+
 ### Enoncé
 
 Retrouvez le PIN mais celui-ci est plus costaud.
 
 Connexion avec nc localhost 4002
-
-Auteurs originaux : Damin MARION & Daniel DE ALMEIDA BRAGA
 
 ### Build
 sudo docker build --debug --tag "ctfmalo-lvl2" .

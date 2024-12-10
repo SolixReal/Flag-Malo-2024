@@ -8,9 +8,7 @@ OSINT - Medium
 
 Il faut commencer par retouver le lieu de la photo.
 
-Avec une recherche inversée sur Google Image, on peut retrouver le bâtiment :
-
-![](img/gimg.png)
+Avec une recherche inversée sur Google Image, on peut retrouver le bâtiment.
 
 Le premier résultat nous amène à une page [wikipédia](https://fr.m.wikipedia.org/wiki/Fichier:Torcy_-_Eglise_Saint-Barth%C3%A9lemy_-_02.jpg), le bâtiment est l'Eglise Saint-Barthélemy à Torcy.
 
@@ -18,11 +16,11 @@ Il faut cependant être prudent car il existe deux églises du même nom dans la
 
 - L'une est à Torcy en Seine-et-Marne :
 
-![](img/feglise.png)
+<img src="img/feglise.png" alt="feglise" width="auto" height="300">
 
 - L'autre est à Torcy en Saône-et-Loire :
 
-![](img/veglise.png)
+<img src="img/veglise.png" alt="veglise" width="auto" height="300">
 
 Il faut donc bien s'assurer, sur Google Maps par exemle, que l'église correspond.
 
@@ -36,7 +34,7 @@ La dernière étape est donc de suivre le gribouillage pour se déplacer en vill
 
 L'indice de l'énoncé nous informe qu'il faut partir de la route du bas, on partira donc du point suivant :
 
-<img src="img/pointdepart.png" alt="point" width="300" height="auto">
+<img src="img/pointdepart.png" alt="point" width="auto" height="300">
 
 Pour comprendre le fonctionnement du gribouillage, on peut faire une recherche inversée sur Google Image.
 

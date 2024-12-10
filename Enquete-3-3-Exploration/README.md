@@ -9,4 +9,4 @@ Bravo, vous avez été accepté, maintenant retrouvez le nom du président de l'
 
 Format attendu du flag : FMCTF{Prenom_Nom}
 
-(Le challenge commence avec les éléments obtenu dans l'étape précédente)
+(Le challenge commence avec les éléments obtenus dans l'étape précédente)

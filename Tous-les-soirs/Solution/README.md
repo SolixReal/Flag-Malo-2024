@@ -4,6 +4,8 @@
 
 Réseau - Medium
 
+Co-écrit avec rizlaaa
+
 ### Résolution
 
 En analysant le fichier texte, on peut remarquer qu'il contient des clés TLS pouvant être utilisé pour chiffrer des échanges.
@@ -32,7 +34,7 @@ Cependant dCode n'arrive pas à trouver le résultat du hash.
 
 On va donc utiliser un autre outil qui permettra une attaque en utilisant un dictionnaire comme rockyou.txt.
 
-Il en existe deux bien connu, **hashcat** et **John the Ripper**.
+Il en existe deux bien connus, **hashcat** et **John the Ripper**.
 
 En utilisant hashcat on obtient :
 ```

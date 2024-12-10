@@ -7,7 +7,7 @@ Réseau - Medium
 ### Enoncé
 Récupérez le mot de passe de connexion de l'administrateur des bornes d'arcades.
 
-Nous avons déjà réussi à intercepter un fichier, peut-être pourra t-il vous aider.
+Nous avons déjà réussi à intercepter un fichier, peut-être pourra-t-il vous aider.
 
 Format attendu du flag : FMCTF{motdepasse}
 

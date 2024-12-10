@@ -28,13 +28,13 @@ On filtre alors les trames FTP et on remarque que le fichier *plan.png* a été 
 
 Pour transmettre les données, c'est le protocole **ftp-data** qui est utilisé, on va donc modifier notre filtre :
 
-<img src="img/ftp-data.png" alt="ftp-data" width="auto" height="300">
+<img src="img/ftp-data.png" alt="ftp-data" width="auto" height="200">
 
 Pour obtenir les données du fichier on va sélectionner une trame ayant envoyé des données de plan.png et suivre les flux TCP :
 
 <img src="img/ascii.png" alt="ascii" width="auto" height="300">
 
-Les données sont par défaut formater en ASCII, cependant nous avons besoin ici des données en brute (raw) :
+Les données sont par défaut formatées en ASCII, cependant nous avons besoin ici des données en brute (raw) :
 
 <img src="img/raw.png" alt="raw" width="auto" height="300">
 

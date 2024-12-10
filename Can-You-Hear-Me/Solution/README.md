@@ -14,13 +14,13 @@ En écoutant l'audio, on peut remarquer un faible bruit de fond qui tourne en bo
 
 Il y a un moment, entre 22 et 24 secondes, dans le reportage, où il n'y a plus de son (audible).
 
-En isolant ce morceau et en augmentant le son, on obtient le bruit de fond sans rien au dessus.
+En isolant ce morceau et en augmentant le son, on obtient le bruit de fond sans rien au-dessus.
 
-On peut appliquer plusieurs traitement afin de rendre audible le message :
+On peut appliquer plusieurs traitements afin de rendre audible le message :
     - Inversement
     - Réduction du temps de 200%
 
-On comprends alors le message qui épèle un lieu.
+On comprend alors le message qui épelle un lieu.
 
 ### Flag
 

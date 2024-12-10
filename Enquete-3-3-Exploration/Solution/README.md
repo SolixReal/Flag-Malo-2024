@@ -19,7 +19,8 @@ On trouve régulièrement des références au président et notamment ses initia
 
 Mais seuls trois fichiers contiennent des informations utiles :
 - Dans le fichier "Rapport_Réunion2024" du dossier "Divers" on trouve à la fin :
-  <img src="img/fich1.png" alt="fich1" width="auto" height="300">
+  
+  <img src="img/fich1.png" alt="fich1" width="auto" height="150">
 
   Le texte *CrgvgQrgnvyf* est en ROT13 et donne : *PetitDetails*
 
@@ -31,6 +32,7 @@ Mais seuls trois fichiers contiennent des informations utiles :
 
   Il s'agit d'un texte chiffré en Vigenère avec la clé PetitDetails. \
   Le site [dCode](https://www.dcode.fr/chiffre-vigenere), pour exemple, permet très facilement de déchiffrer le texte.
+  
   <img src="img/dcode.png" alt="dcode" width="auto" height="300">
 
   On obtient alors :
@@ -42,6 +44,7 @@ Mais seuls trois fichiers contiennent des informations utiles :
 - Le message fait référence au fichier "Réunion_Slogan.pdf" du dossier "Archives" et les chiffres correspondent à des duos de ligne et lettre (exemple : 13-5 :  13èmes lignes, 5èmes lettres).
 
   On obtient les lettres suivantes :
+  
   <img src="img/fich3.png" alt="fich3" width="auto" height="300">
 
 Le nom obtenu, celui du président, est Michel Perier.

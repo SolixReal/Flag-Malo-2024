@@ -12,7 +12,7 @@ Avec une recherche inversée sur Google Image, on peut retrouver le bâtiment.
 
 Le premier résultat nous amène à une page [wikipédia](https://fr.m.wikipedia.org/wiki/Fichier:Torcy_-_Eglise_Saint-Barth%C3%A9lemy_-_02.jpg), le bâtiment est l'Eglise Saint-Barthélemy à Torcy.
 
-Il faut cependant être prudent car il existe deux églises du même nom dans la ville du même nom.
+Il faut cependant être prudent car il existe deux églises du même nom dans une ville du même nom.
 
 - L'une est à Torcy en Seine-et-Marne :
 
@@ -22,13 +22,13 @@ Il faut cependant être prudent car il existe deux églises du même nom dans la
 
 <img src="img/veglise.png" alt="veglise" width="auto" height="300">
 
-Il faut donc bien s'assurer, sur Google Maps par exemle, que l'église correspond.
+Il faut donc bien s'assurer, sur Google Maps par exemple, que l'église correspond et celle que l'on recherche est en Saône-et-Loire.
 
-L'indication suivante indique un tour sur l'eau, on peut alors supposer qu'il a traversé l'étang, pour se rendre au Yatch Club Le Creusot.
+L'indication suivante indique un tour sur l'eau, on peut alors supposer qu'il a traversé l'étang, pour se rendre au *Yatch Club Le Creusot*.
 
-Il est allé manger une pizza, la pizzeria la plus proche est La Spaggia.
+Il est allé manger une pizza, la pizzeria la plus proche est *La Spaggia*.
 
-Enfin il s'est fait une manucure et l'établissement le plus proche de la pizzeria proposant ce service est Tellement Ongles.
+Enfin il s'est fait une manucure et l'établissement le plus proche de la pizzeria proposant ce service est *Tellement Ongles*.
 
 La dernière étape est donc de suivre le gribouillage pour se déplacer en ville et retrouver son ami.
 
@@ -42,7 +42,7 @@ On découvre alors qu'il s'agit d'un [fléché allemand](https://www.sport-natur
 
 En suivant le fléché on obtient ce parcours :
 
-<img src="img/trace.png" alt="trace" width="auto" height="300">
+<img src="img/trajet.png" alt="trajet" width="auto" height="300">
 
 On arrive alors à un établissement nommé *Charmeandcie* qui est certainement l'endroit recherché.
 

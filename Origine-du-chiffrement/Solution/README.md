@@ -14,7 +14,7 @@ Il nous manque seulement le décalage.
 
 Des outils comme [dCode](https://www.dcode.fr/chiffre-cesar) permettent de tester les différentes possiblitées et de retourner celle qui ressemble le plus à un vrai texte.
 
-![](img/dcode.png)
+<img src="img/dcode.png" alt="dcode" width="auto" height="300">
 
 Le site nous retourne *Crypto_Basique* avec un décalage de 7.
 

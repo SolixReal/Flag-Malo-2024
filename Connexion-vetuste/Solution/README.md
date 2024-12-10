@@ -16,13 +16,13 @@ C'est un protocole reconnu comme vulnérable, qui ne chiffre pas les échanges.
 
 Afin de facilement observer les échanges, on peut filtrer les trames telnet :
 
-![Image1](https://github.com/SolixReal/Flag-Malo-2024/blob/main/Connexion-vetuste/Solution/img/solution1.png)
+<img src="img/solution1.png" alt="solution1" width="auto" height="300">
 
 Puis suivre les flux en se rendant dans *Analyser* / *Suivre* / *TCP Steam* :
 
-![Image2](img/solution2.png)
+<img src="img/solution2.png" alt="solution2" width="auto" height="300">
 
-![Image3](img/solution3.png)
+<img src="img/solution3.png" alt="solution3" width="auto" height="300">
 
 On peut voir que le mot de passe est superSecret22.
 

@@ -8,11 +8,11 @@ Stegano - Hard
 
 - Un mail :
 
-![](img/mail.png)
+<img src="img/mail.png" alt="mail" width="auto" height="300">
 
 - Une photo de borne d'arcade :
 
-![](img/piecejointe.png)
+<img src="img/piecejointe.png" alt="piecejointe" width="auto" height="300">
 
 ### Résolution
 
@@ -89,7 +89,7 @@ if __name__ == "__main__":
 
 Au final on trouve donc l'image suivante :
 
-![](img/result.png)
+<img src="img/result.png" alt="result" width="auto" height="300">
 
 ### Flag
 

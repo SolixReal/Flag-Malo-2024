@@ -38,6 +38,15 @@ L'indice de l'énoncé nous informe qu'il faut partir de la route du bas, on par
 
 Pour comprendre le fonctionnement du gribouillage, on peut faire une recherche inversée sur Google Image.
 
+On découvre alors qu'il s'agit d'un [fléché allemand](https://www.sport-nature.net/fleche-allemand/) dont le principe est d'indiquer les routes **à ne pas prendre**.
+
+En suivant le fléché on obtient ce parcours :
+
+<img src="img/trace.png" alt="trace" width="auto" height="300">
+
+On arrive alors à un établissement nommé *Charmeandcie* qui est certainement l'endroit recherché.
+
+
 ### Flag
 
 Le flag est FMCTF{Charmeandcie}

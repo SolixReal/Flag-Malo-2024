@@ -14,5 +14,5 @@ Les anges ont souvent des ailes... et les ailes permettent de s’élever au-des
 
 ### Ressources
 
-- ![mail.pdf](mail.pdf)
-- ![piecejointe.png](piecejointe.png)
+- [mail.pdf](mail.pdf)
+<img src="piecejointe.png" alt="piecejointe" width="auto" height="300">

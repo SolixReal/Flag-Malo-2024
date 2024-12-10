@@ -4,6 +4,8 @@
 
 Réseau - Medium
 
+Co-écrit avec rizlaaa
+
 ### Enoncé
 Récupérez le mot de passe de connexion de l'administrateur des bornes d'arcades.
 

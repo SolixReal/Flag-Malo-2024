@@ -6,7 +6,7 @@ OSINT - Medium
 
 ### Enoncé
 
-L'été dernier, j'ai visité une superbe ville et j'ai fini chez une personne super sympathique à boire un café. Il avait un établissement un peu étrange de référencé. Je voudrais lui envoyer une lettre pour reprendre contact mais j'ai malheureusement oublié son adresse. Pouvez-vous m'aider à retrouver le nom de son établissement ?
+L'été dernier, j'ai visité une superbe ville et j'ai fini chez une personne super sympathique à boire un café. Il avait un établissement un peu étrange de référencé. Je voudrais lui envoyer une lettre pour reprendre contact, mais j'ai malheureusement oublié son adresse. Pouvez-vous m'aider à retrouver le nom de son établissement ?
 
 Pour vous aider, voici un récap de ma journée :
    - J'ai pris une photo d'un magnifique bâtiment que j'ai visité le matin.
@@ -18,6 +18,6 @@ Format attendu du flag : FMCTF{lieu}
 
 ### Ressources
 
-- ![](gribouillage.pdf)
+- [gribouillage.pdf](gribouillage.pdf)
 
-- ![photo.png](photo.png)
+<img src="photo.png" alt="photo.png" width="auto" height="200">

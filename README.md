@@ -7,6 +7,6 @@ C'est avec plaisir que je prends vos avis pour pouvoir améliorer mes challenges
 
 Si vous voulez échanger sur discord : @solixreal_0945
 
-Je remercie l'IUT de Saint-Malo et l'équipe organisatrice du Flag'Malo de nous avoir intégré afin de proposé des challenges et aider à l'organisation.
+Je remercie l'IUT de Saint-Malo et l'équipe organisatrice du Flag'Malo de nous avoir intégré afin de proposer des challenges et aider à l'organisation.
 
 Merci aussi à mon camarade Slotekh pour ses idées et conseils !

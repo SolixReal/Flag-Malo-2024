@@ -6,7 +6,7 @@ Stegano - Medium
 
 ### Enoncé
 
-Nous soupçonnons que ce documentaire audio que nous avons intercepté soit utilisé pour transmettre un lieu de rendez-vous. Retrouvez cet endroit.
+Nous soupçonnons que ce documentaire audio que nous avons intercepté est utilisé pour transmettre un lieu de rendez-vous. Retrouvez cet endroit.
 
 Format attendu du flag FMCTF{lieu_de_rdv}.
 

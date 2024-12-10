@@ -16,13 +16,9 @@ Give me the right PIN code to get the flag!
 
 ### Résolution
 
-Etant donné que nous n'avons pas d'information et que, comme le dit l'énoncé, il ne faut pas passer par du brute force.
+Etant donné que nous n'avons pas d'information et que, comme le dit l'énoncé, il ne faut pas passer par du brute force, on va utiliser une technique de side-channel, en observant les temps d'exécution.
 
-On va alors essayer d'utiliser une technique de side-channel, en observant les temps d'exécution.
-
-Il faut tout d'abord connaître la taille.
-
-Pour cela on peut tester différentes taille de chaîne de 0 et observer celle où le temps d'exécution est le plus important.
+Il faut tout d'abord connaître la taille. Pour cela on peut tester différentes tailles de chaîne de 0 et observer celle où le temps d'exécution est le plus important.
 
 Voici un programme correspondant :
 

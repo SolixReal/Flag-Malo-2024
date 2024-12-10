@@ -16,33 +16,29 @@ Stegano - Hard
 
 ### Résolution
 
-Avant tout, il faut comprendre quoi faire.
+D'abord, si on s'intéresse à l'image en pièce jointe, il y a une information à trouver :
+
+- Dans les métadonnées, il y a un commentaire : *MaBelleArcadeKey* qui de part sont nom, semble être une clé.
+
+On se doute alors que l'on va devoir chiffrer ou déchiffre un élément.
 
 En lisant le mail, deux informations sont à retrouver :
 
 - Le nom de l'établissement avec l'adresse, en prennant les chiffres et initiales donne : AES-128-CBC
 
-    **_A_***ux* **_E_***lixirs* **_S_***auvages, au* **_128_*** rue* **_C_***ommandant* **_B_***enjamin* **_C_***ocret*
+    **_A_** *ux* **_E_** *lixirs* **_S_** *auvages, au* **_128_** *rue* **_C_** *ommandant* **_B_** *enjamin* **_C_** *ocret*
 
-- L'image inclut dans le mail à un message d'erreur qui a un format hexadécimal *i\xf7\xf8]j\x8f}"\xb8\xf5c\x86\x8dh\x85\x06*
+- L'image inclut dans le mail à un message d'erreur qui a un format brute *i\xf7\xf8]j\x8f}"\xb8\xf5c\x86\x8dh\x85\x06*
 
-    On peut alors se douter que cela sera utile.
+L'AES-128-CBC a besoin de deux éléments :
+- Une clé : MaBelleArcadeKey
+- Un IV : i\xf7\xf8]j\x8f}"\xb8\xf5c\x86\x8dh\x85\x06. On peut se douter qu'il s'agît de l'IV car il fait la bonne longueur de 16 octets.
 
-Maintenant, si on s'intéresse à l'image en pièce jointe, il y a une information à trouver :
-
-- Dans les métadonnées il y a un commentaire : *MaBelleArcadeKey* qui de part sont nom semble être une clé.
-
-On a maintenant 3 éléments intéressant. La première idée est de vouloir déchiffrer l'hexadécimal de l'AES-128-CBC avec la clé.
-
-Il nous manque cependant un élément, l'IV et justement, l'héxadécimal du message d'erreur fait la bonne longueur pour être un IV.
-
-On peut donc en déduire qu'il y a une autre chose à déchiffrer.
-
-L'indice donné parle d'ange et cela fait référence à une méthode nommé l'angecryption.
+Intéressons nous maintenant au complément de l'énoncé. Celui-ci parle d'ange et cela fait référence à une méthode nommée l'angecryption.
 
 Elle consiste à pouvoir révéler un fichier en en chiffrant un autre.
 
-Il faut donc chiffrer l'image en pièce jointe en utilisant les éléments découvert.
+Il faut donc chiffrer l'image en pièce jointe en utilisant les éléments découverts.
 
 Pour cela on peut écrire un programme simple (![solution.py](solution.py)):
 
@@ -87,7 +83,7 @@ if __name__ == "__main__":
     encrypt_image_aes_128(input_image, output_encrypted, key, iv)
 ```
 
-Au final on trouve donc l'image suivante :
+Au final, on trouve donc l'image suivante :
 
 <img src="img/result.png" alt="result" width="auto" height="300">
 

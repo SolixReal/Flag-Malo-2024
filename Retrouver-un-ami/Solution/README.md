@@ -36,7 +36,7 @@ La dernière étape est donc de suivre le gribouillage pour se déplacer en vill
 
 L'indice de l'énoncé nous informe qu'il faut partir de la route du bas, on partira donc du point suivant :
 
-![](img/pointdepart.png)
+<img src="img/pointdepart.png" alt="point" width="300" height="auto">
 
 Pour comprendre le fonctionnement du gribouillage, on peut faire une recherche inversée sur Google Image.
 

@@ -16,6 +16,10 @@ Pour vous aider, voici un récap de ma journée :
 
 Format attendu du flag : FMCTF{lieu}
 
+### Complément
+
+Une fois la boutique pour les ongles trouvée, partez de la route en bas de celle-ci.
+
 ### Ressources
 
 - [gribouillage.pdf](gribouillage.pdf)
